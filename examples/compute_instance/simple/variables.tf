@@ -19,6 +19,7 @@
 variable "project_id" {
   description = "The GCP project to use for integration tests"
   type        = string
+  default = "iac-automation-384312"
 }
 
 variable "region" {
